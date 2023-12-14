@@ -1,4 +1,3 @@
-package Programming1;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -145,10 +144,10 @@ public class LCS{
 
         //turning two input files into strings, removing their
         //whitespaces and punctuation, and setting all characters to lower case
-        String fileString1 = readFile("The_State_of_Data_Final.txt");
+        String fileString1 = readFile("input1.txt");
         fileString1 = cleanString(fileString1); 
 
-        String fileString2 = readFile("Privacy_in_the_Age_of_Information.txt");
+        String fileString2 = readFile("input2.txt");
         fileString2 = cleanString(fileString2); 
 
         //Printing the LCS of the two strings/files
